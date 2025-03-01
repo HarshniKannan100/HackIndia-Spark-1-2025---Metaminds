@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: #0077b6;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Main Content Layout */
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Status Panel */
+.status-panel {
+  width: 30%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.status-panel h2 {
+  color: #0077b6;
+}
+
+.status-panel p {
+  font-size: 18px;
+}
+
+/* Map Container */
+.map-container {
+  width: 70%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Footer */
+.footer {
+  background: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+}
